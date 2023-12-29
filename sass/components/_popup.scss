@@ -1,0 +1,100 @@
+//.popup{
+  //  height:100vh;
+   /* width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    background-color:rgba($color-black, .8); 
+    z-index:999;
+   opacity:0;
+   visibility: hidden;
+   transition:all .3s;
+  
+    &__close{
+    &:link,
+    &:visited{
+        color:$color-gray;
+        position:absolute;
+        top:2.5rem;
+        right:2.5rem;
+        font-size:3rem;
+        display:inline-block;
+        text-decoration:none;
+        transition:all .2;
+        line-height:1;
+        &:hover{
+            color:$color-primary-dark;
+        }
+    }
+   }
+    &__content{
+     //   color:black;
+     @include abscenter;
+     width:75%;
+     display:table;
+     overflow:hidden;
+     background-color:$color-white;
+     box-shadow:0 2rem 4rem rgba($color-black, .2);
+     opacity:0;
+     transform:translate(-50%,-50%) scale(.3);
+     transition:all .4s;
+    }
+    &__left{
+        width:33.33%;
+        display:table-cell;
+    }
+    &__right{
+        width:66.66%;
+        display:table-cell;
+        vertical-align: middle;
+        padding:3rem 5rem;
+    }
+    &__image{
+        display:block;
+        width:100%;
+    }
+    &__text{
+        font-size:1.4rem;
+        margin-bottom:4rem;
+    }
+
+    /*open
+
+     &:target{
+       opacity:1;
+       visibility:visible;
+       }
+       &__close{
+       &:link,
+       &:visited{
+            color:$color-gray;
+            position:absolute;
+            top:2.5rem;
+            right:2.5rem;
+            font-size:3rem;
+            display:inline-block;
+            text-decoration:none;
+            transition:all .2;
+            line-height:1;
+            &:hover{
+                color:$color-primary-dark;
+            }
+        }
+        &:target &__content{
+            transform:translate(-50%,-50%) scale(1);
+            opacity:1;
+        }
+       }
+        &__content{
+         //   color:black;
+         @include abscenter;
+         width:75%;
+         display:table;
+         overflow:hidden;
+         background-color:$color-white;
+         box-shadow:0 2rem 4rem rgba($color-black, .2);
+         opacity:0;
+         transform:translate(-50%,-50%) scale(.3);
+         transition:all .4s;
+        }*/
+// }
